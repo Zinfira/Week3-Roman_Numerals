@@ -20,7 +20,7 @@ _The program will take numbers and will provide roman numerals_
 
 * This program requires to have a web browser as Google Chrome, Safari or Mozilla Firefox
 
-_{You can clone this program to your desktop or download the zip file on this page: https://github.com/bowty14/romanNumerials.git}_
+_{You can clone this program to your desktop or download the zip file on this page: https://github.com/bowty14/romanNumerials.git and https://github.com/Zinfira/Week3-Roman_Numerals.git}_
 
 ## Known Bugs
 
