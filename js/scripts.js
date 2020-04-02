@@ -1,7 +1,23 @@
 function convertToRoman(number) {
   console.log(number);
     if (number < 1) {
-    return ""; 
+    return "Numbers must be greater than or equal to 1"; 
+    } else if (number > 3999) {
+      return "Numbers must be less than or equal to 3999" ;
+    } else if (number >= 1000) {
+      return "M" + convertToRoman(number - 1000);
+    } else if (number >= 900) {
+      return "CM" + convertToRoman(number - 900);
+    } else if (number >= 500) {
+      return "D" + convertToRoman(number - 500);
+    } else if (number >= 400) {
+      return "CD" + convertToRoman(number - 400);
+    } else if (number >= 100) {
+      return "C" + convertToRoman(number - 100);
+    } else if (number >= 90) {
+      return "XC" + convertToRoman(number - 90);
+    } else if (number >= 50) {
+      return "L" + convertToRoman(number - 50);
     } else if (number >= 40) {
       return "XL" + convertToRoman(number - 40); 
     } else if (number >= 10) {
