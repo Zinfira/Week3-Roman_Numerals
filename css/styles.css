@@ -1,1 +1,11 @@
- 
+body {
+  background-color: antiquewhite;
+} 
+
+.button {
+  color: rgb(243, 160, 34);
+}
+
+jumbotron {
+  background-color: orange;
+}
