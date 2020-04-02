@@ -24,7 +24,8 @@ _{You can clone this program to your desktop or download the zip file on this pa
 
 ## Known Bugs
 
-_{Program will not exclude 0 as being less than one, it will prompt a return if user enters a negative number. Although with 0 it does not convert it to any numeral.}_
+_{Fixed JavaScript bug below:
+  (Program will not exclude 0 as being less than one, it will prompt a return if user enters a negative number. Although with 0 it does not convert it to any numeral.)}_
 
 ## Support and contact details
 
