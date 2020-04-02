@@ -1,12 +1,8 @@
-var convertToRoman = function(number) {
-  var decimalValue = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 5, 4, 1];
-  var romanNum = [ "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"];
-  var roman = "";
-
-  for (var index = 0; index < decimalValue.length; index ++) {
-    while (decimal)
-  }
-
+function convertToRoman(number) {
+  console.log(number);
+  if(!+number)
+      return false;
+  
 }
 
 
@@ -16,9 +12,53 @@ var convertToRoman = function(number) {
 $(document).ready(function() {
   $("form#convert").submit(function(event) {
     event.preventDefault();
-    var I = 1;
-    if ("input#input1" === 2)
-    return(II);
+    var number = parseInt($("input#numInput").val());
+    var result = convertToRoman(number);
+    if (result){
+      $(".result").text(result);
+    }
+    console.log(number);
   });
 });
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//   let roman = "";
+
+//   const romanNumList = { M: 1000, CM: 900, D: 500, CD: 400, C: 100, XC: 90, L: 50, XV: 40, X: 10, IX: 9, V: 5, IV: 4, I: 1 };
+//   let a;
+//   if (number < 1 || number > 3999)
+//     return "Enter a number between 1 and 3999";
+//   else {
+//     for (let key in romanNumList[key]) {
+//       a = Math.floor(number / romanNumList[key]);
+//       if (a >= 0) {
+//         for (let i = 0; i < a; i++) {
+//           roman += key;
+//         }
+
+
+//       }
+//       number = number % romanNumList[key];
+//     }
+//   }
+
+//   return roman;
+
+// }
