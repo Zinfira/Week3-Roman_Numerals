@@ -40,7 +40,7 @@ $(document).ready(function() {
 
 // spec one program will add values of all symbols so III = 3 
 // spec two numbers can only range from >= 1 and <= 3,999
-// spec three there can not be more than three of the same characters on one line, so to get 4 we subtract I from V and get IV.
+// spec three there can not be more than three of the same characters on one line, so to get 4 we subtract I from V and get IV. 
 
 
 
