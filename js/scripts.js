@@ -1,25 +1,25 @@
 function convertToRoman(number) {
   console.log(number);
-  if(!+number)
-      return false;
-  else if (number > 3999) {
-    return "Number must be less than or equal to 3999";
-  } else if (number <1 || number === 0) {
-    return "Number must be greater than or equal to 1";
-  } 
-  var digits = String(+number).split("");
-      key=["","C","CC","CCC","CD","D","DC","DCC","DCCC","CM",
-            "","X","XX","XXX","XL","L","LX","LXX","LXXX","XC",
-            "","I","II","III","IV","V","VI","VII","VIII","IX"];
-      roman="";
-      i = 3;
-  while (i--)
-        roman = (key[+digits.pop() + (i * 10)] || "") + roman;
-  return Array(+digits.join("") + 1).join("M") + roman;
+    if (number < 1) {
+    return ""; 
+    } else if (number >= 40) {
+      return "XL" + convertToRoman(number - 40); 
+    } else if (number >= 10) {
+    return "X" + convertToRoman(number - 10);
+  } else if (number >= 9) {
+    return "IX" + convertToRoman(number - 9); 
+  } else if (number >= 5) {
+    return "V" + convertToRoman(number - 5); 
+  } else if (number >= 4) {
+    return "IV" + convertToRoman(number - 4);
+  } else (number >= 1) 
+    return "I" + convertToRoman(number - 1);
+       
+  }
 
 
 
-}
+
 
 
 

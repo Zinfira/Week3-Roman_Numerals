@@ -28,14 +28,14 @@ _{Program will not exclude 0 as being less than one, it will prompt a return if 
 
 ## Support and contact details
 
-_{If you run our program and find any other bugs or issues in it's functionality or you want to add to this program we encourage you to reach out to either of us at: tylerbowerman@yahoo.com or }zsafargalieva@gmail.com_
+_If you run our program and find any other bugs or issues in it's functionality or you want to add to this program we encourage you to reach out to either of us at: tylerbowerman@yahoo.com or zsafargalieva@gmail.com_
 
 ## Technologies Used
 
-_{HTML, CSS, Bootstrap 4, jQuery.}_
+_HTML, CSS, Javascript, Bootstrap 4, jQuery._
 
 ### License
 
-*{Open source}*
+*This softwar is licensed under the MIT license [MIT](https://en.wikipedia.org/wiki/MIT_License)*
 
 Copyright (c) 2020 **_{Tyler Bowerman and Zinfira Safargalieva}_**
